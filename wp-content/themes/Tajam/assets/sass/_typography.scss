@@ -1,0 +1,130 @@
+//  Подключения шрифтов
+
+// font-family: 'Icomoon';
+@font-face {
+  font-family: 'Icomoon';
+  font-weight: normal;
+  src:  local('Icomoon'), local('Icomoon');
+  src:  url('../fonts/Icomoon/Icomoon.eot');
+  src:  url('../fonts/Icomoon/Icomoon.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Icomoon/Icomoon.woff') format('woff'),
+  url('../fonts/Icomoon/Icomoon.ttf') format('truetype'),
+  url('../fonts/Icomoon/Icomoon.svg#Icomoon') format('svg');
+}
+
+// font-family: 'Roboto';
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src:  local('Roboto'), local('Roboto-Regular');
+  src:  url('../fonts/Roboto/Roboto-Regular.eot');
+  src:  url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+  url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+  url('../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+}
+
+// font-family: 'Roboto';
+// font-weight: 700;
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src:  local('Roboto'), local('Roboto-Bold');
+  src:  url('../fonts/Roboto/Roboto-Bold.eot');
+  src:  url('../fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto/Roboto-Bold.woff') format('woff'),
+  url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+  url('../fonts/Roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'HammersmithOne';
+// font-weight: 400;
+@font-face {
+  font-family: 'HammersmithOne';
+  font-weight: 400;
+  src:  local('HammersmithOne'), local('HammersmithOne-Regular');
+  src:  url('../fonts/HammersmithOne-Regular/HammersmithOne-Regular.eot');
+  src:  url('../fonts/HammersmithOne-Regular/HammersmithOne-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HammersmithOne-Regular/HammersmithOne-Regular.woff') format('woff'),
+  url('../fonts/HammersmithOne-Regular/HammersmithOne-Regular.ttf') format('truetype'),
+  url('../fonts/HammersmithOne-Regular/HammersmithOne-Regular.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'PlayfairDisplay-Regular';
+// font-weight: 400;
+@font-face {
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+  src:  local('PlayfairDisplay'), local('PlayfairDisplay-Regular');
+  src:  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot');
+  src:  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.ttf') format('truetype'),
+  url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'PlayfairDisplay-Bold';
+// font-weight: 400;
+@font-face {
+  font-family: 'PlayfairDisplay';
+  font-weight: 700;
+  src:  local('PlayfairDisplay'), local('PlayfairDisplay-Bold');
+  src:  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot');
+  src:  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf') format('truetype'),
+  url('../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.svg#Roboto-Bold') format('svg');
+}
+
+// font-family: 'PlayfairDisplay-Black';
+// font-weight: 400;
+@font-face {
+  font-family: 'PlayfairDisplay';
+  font-weight: 700;
+  src:  local('PlayfairDisplay'), local('PlayfairDisplay-Black');
+  src:  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.eot');
+  src:  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.ttf') format('truetype'),
+  url('../fonts/PlayfairDisplay-Black/PlayfairDisplay-Black.svg#Roboto-Bold') format('svg');
+}
+
+// Заголовки
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: PlayfairDisplay, sans-serif;
+  font-weight: bold;
+  color: #413d4b;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #413d4b;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+}

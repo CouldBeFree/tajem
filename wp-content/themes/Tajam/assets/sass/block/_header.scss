@@ -1,0 +1,122 @@
+.page-header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+  #menu-menu{
+    @media (max-width: 667px) {
+      position: fixed;
+      left: 0;
+      top: 70px;
+      flex-direction: column;
+      align-items: center;
+      background: black;
+      width: 300px;
+      z-index: 100;
+      padding: 10px 0;
+      transform: translateX(-300px);
+      transition: .6s;
+    }
+  }
+
+  .active{
+    transform: translateX(0)!important;
+    transition: .6s;
+  }
+
+  .cross{
+    span{
+      &:nth-child(1){
+        position: relative;
+        top: 6px;
+        transition: .6s;
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2){
+        transform: rotate(315deg);
+        transition: .6s;
+        position: relative;
+        bottom: 10px;
+      }
+
+      &:nth-child(3){
+        display: none;
+      }
+    }
+  }
+
+  .hamburger{
+    height: 20px;
+    width: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+
+    @media (min-width: 667px) {
+      display: none;
+    }
+
+    span{
+      background: #03d7c9;
+      height: 4px;
+      border-radius: 5px;
+      -webkit-transition: .6s;
+      transition: .6s;
+    }
+  }
+
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+    img{
+      @media (max-width: 414px) {
+        max-width: 90%;
+      }
+    }
+
+    &__list{
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li{
+        &:not(:last-child){
+          margin-right: 25px;
+
+          @media (max-width: 667px) {
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+        }
+
+        a{
+          font-size: 13px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          font-family: Roboto, sans-serif;
+          font-weight: bold;
+          transition: .4s;
+
+          &:hover{
+            color: #00e0d0;
+          }
+        }
+      }
+    }
+  }
+}
