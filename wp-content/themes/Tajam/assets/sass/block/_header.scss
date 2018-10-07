@@ -18,6 +18,10 @@
       transform: translateX(-300px);
       transition: .6s;
     }
+
+    @media (max-width: 414px) {
+      top: 65px;
+    }
   }
 
   .active{
